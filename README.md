@@ -23,23 +23,4 @@ Output
 For each data grid, output one line containing "#g: (x, y) f", where g is the grid number (starting from 0), (x, y) is the cell coordinate (0,0 being the top-left corner) in the fishing area where Bender will get the most fish, and f is the number of fish to be catched.
 Implementation Requirements
 Given that you do not know beforehand how large a sonar data grid is, your program should dynamically allocate a 2D Array after the width and height of a grid is read. Make sure to de-allocate the 2D Array after you find the answer and before your program moves on to process the next grid.
-Sample
-Input
-Output
-3
-3 3 1
-1 0 0
-0 1 0
-0 2 1
-6 3 3
-4 1 2 0 0 6
-0 7 5 9 8 3
-4 4 6 2 8 1
-4 4 3
-1 0 0 3
-0 1 0 1
-0 2 1 4
-0 0 0 1
-#0: (1, 2) 2
-#1: (3, 1) 40
-#2: (2, 1) 12
+
